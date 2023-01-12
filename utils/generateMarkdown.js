@@ -1,8 +1,8 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  
-  return `![badge](https://img.shields.io/badge/license-${license}-blue) \n`; 
+  const formatLincense=license.split(" ").join('_');   
+  return `![badge](https://img.shields.io/badge/license-${formatLincense}-blue) \n`; 
 }
 
 // TODO: Create a function that returns the license link
@@ -15,8 +15,9 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   let licenseInfo = 'N/A'; 
+  const formatLincense=license.split(" ").join('_');   
   if (license !== "None"){
-    licenseInfo =`This application has [${license}](${renderLicenseLink(license)}) Lincense. \n`; 
+    licenseInfo =`This application has [${license}](${renderLicenseLink(formatLincense)}) Lincense. \n`; 
   }
   return `## License \n
   ${licenseInfo} \n` ; 
@@ -75,7 +76,7 @@ function generateMarkdown(data) {
   questionsContent += `For any questions please contact ${data.email} \n \n`; 
 
   let contributorsContent = `\n## Contributors \n \n`
-  contributorsContent += `${data.username}('https://github.com/${data.username}') \n \n`;
+  contributorsContent += `[${data.username}](https://github.com/${data.username}) \n \n`;
 
   let readMEContent=`# ${data.title} \n \n`;
   if (data.license !== "None"){
