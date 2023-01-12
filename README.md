@@ -26,7 +26,13 @@ N/A
  
 1. npm i inquirer@8.2.4
 2. node index.js 
- 
+
+
+
+https://user-images.githubusercontent.com/43153891/212013927-2386ed32-1e77-4fb0-b29a-594e8aa63bcc.mp4
+
+
+
  
 
  ## Tests 
