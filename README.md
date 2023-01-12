@@ -1,6 +1,6 @@
 # Professional README Generator 
  
-![badge](https://img.shields.io/badge/license-Boost Software License 1.0-blue) 
+![badge](https://img.shields.io/badge/license-Boost_Software_License_1.0-blue) 
 
 ## Description 
 
@@ -40,7 +40,7 @@ N/A
  
 ## License 
 
-  This application has [Boost Software License 1.0](https://choosealicense.com/licenses/Boost Software License 1.0) Lincense. 
+  This application has [Boost Software License 1.0](https://choosealicense.com/licenses/Boost_Software_License_1.0) Lincense. 
  
 
 ## Questions 
